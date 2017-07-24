@@ -8,7 +8,7 @@ import java.util.Arrays;
  * Status: Accepted
  * Runtime: 32 ms
  * Submitted: 0 minutes ago
- * 用时32ms，处于39.41%的水平
+ * 用时26ms，处于41.93%的水平
  */
 public class Solution {
 
@@ -39,7 +39,6 @@ public class Solution {
 
 
 /*
-3ms的代码
 public class Solution {
     public int[] twoSum(int[] nums, int target) {
         short[] map = new short[20050];
