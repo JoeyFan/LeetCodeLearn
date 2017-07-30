@@ -10,7 +10,7 @@ Note that the answer must be a substring, "pwke" is a subsequence and not a subs
 意思就是给你一个字符串，查找最长的无重复字符串
 
 ###难度
-简单
+中等
 
 #第一遍结果
 ![结果](result.png)
