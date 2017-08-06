@@ -13,4 +13,4 @@ Note that the answer must be a substring, "pwke" is a subsequence and not a subs
 中等
 
 #第一遍结果
-![结果](result.png)
+![结果](result.jpg)
