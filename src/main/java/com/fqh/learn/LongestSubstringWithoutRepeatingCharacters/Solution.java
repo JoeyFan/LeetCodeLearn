@@ -8,8 +8,6 @@ package com.fqh.learn.LongestSubstringWithoutRepeatingCharacters;
  * Given "pwwkew", the answer is "wke", with the length of 3. Note that the answer must be a substring, "pwke" is a subsequence and not a substring.
  **/
 public class Solution {
-    //测试用例的字符从空格到大写字母Z，所以128足够了
-    static int[] last = new int[128];
 
     /**
      * 求字符串里最长无重复字串长度
@@ -17,7 +15,9 @@ public class Solution {
      * @param s
      * @return
      */
-    public static int lengthOfLongestSubstring(String s) {
+    public int lengthOfLongestSubstring(String s) {
+        //测试用例的字符从空格到大写字母Z，所以128足够了
+        int[] last = new int[128];
         int start = 0;
         int len = 0;
         char[] w = s.toCharArray();
@@ -40,7 +40,7 @@ public class Solution {
 
     public static void main(String[] argus) {
         String s = "pwwkew";
-        int l = lengthOfLongestSubstring(s);
+        int l = new Solution().lengthOfLongestSubstring(s);
         System.out.println(l);
     }
 }
