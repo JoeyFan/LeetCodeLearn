@@ -6,5 +6,5 @@
 | :-------- | --------:| :------: |
 | [Two Sum](src\main\java\com\fqh\learn\AddTwoNum\subject.md)       |   简单 |  通过  |
 | Add Two Numbers|  中等  |通过  |
-|Longest Substring Without Repeating Characters   |   中等 |  ing  |
+|Longest Substring Without Repeating Characters   |   中等 |  通过  |
 | Median of Two Sorted Arrays|   中等 |    |
