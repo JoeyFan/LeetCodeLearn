@@ -37,7 +37,9 @@ public class Solution {
             return s.length() - start;
     }
 
-
+    /**
+    * 测试
+    **/
     public static void main(String[] argus) {
         String s = "pwwkew";
         int l = new Solution().lengthOfLongestSubstring(s);
